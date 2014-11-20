@@ -51,3 +51,6 @@ PRODUCT_PACKAGES += \
     MmsService
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
+
+# call sp common config
+$(call inherit-product-if-exists, vendor/sp/configs/common.mk)
