@@ -25,7 +25,6 @@ PRODUCT_PACKAGES += \
     CalendarProvider \
     CaptivePortalLogin \
     CertInstaller \
-    Contacts \
     DocumentsUI \
     DownloadProviderUi \
     Email \
